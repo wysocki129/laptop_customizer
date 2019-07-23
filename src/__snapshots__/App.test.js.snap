@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component displays features propperly 1`] = `
+<div
+  className="App"
+>
+  <ELFBranding />
+  <main>
+    <Features
+      features={
+        Object {
+          "Display": Array [
+            Object {
+              "cost": 1500,
+              "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+            },
+            Object {
+              "cost": 1400,
+              "name": "15.3\\" HGTV (3840 x 2160) Home makeover edition",
+            },
+          ],
+          "Operating System": Array [
+            Object {
+              "cost": 200,
+              "name": "Ubuntu Linux 16.04",
+            },
+            Object {
+              "cost": 300,
+              "name": "Bodhi Linux",
+            },
+          ],
+          "Processor": Array [
+            Object {
+              "cost": 700,
+              "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+            },
+            Object {
+              "cost": 1200,
+              "name": "Professor X AMD Fire Breather with sidewinder technology",
+            },
+          ],
+          "Video Card": Array [
+            Object {
+              "cost": 1150.98,
+              "name": "Toyota Corolla 1.5v",
+            },
+            Object {
+              "cost": 1345,
+              "name": "Mind mild breeze 2000",
+            },
+          ],
+        }
+      }
+      handleUpdateFeature={[Function]}
+      selectedOptions={
+        Object {
+          "Display": Object {
+            "cost": 1500,
+            "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+          },
+          "Operating System": Object {
+            "cost": 200,
+            "name": "Ubuntu Linux 16.04",
+          },
+          "Processor": Object {
+            "cost": 700,
+            "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+          },
+          "Video Card": Object {
+            "cost": 1150.98,
+            "name": "Toyota Corolla 1.5v",
+          },
+        }
+      }
+    />
+    <section
+      className="main__summary"
+    >
+      <h3>
+        NEW GREENLEAF 2018
+      </h3>
+      <div
+        className="summary__option"
+        key="Processor"
+      >
+        <div
+          className="summary__option__label"
+        >
+          Processor
+           
+        </div>
+        <div
+          className="summary__option__value"
+        >
+          17th Generation Intel Core HB (7 Core with donut spare)
+        </div>
+        <div
+          className="summary__option__cost"
+        >
+          $700.00
+        </div>
+      </div>
+      <div
+        className="summary__option"
+        key="Operating System"
+      >
+        <div
+          className="summary__option__label"
+        >
+          Operating System
+           
+        </div>
+        <div
+          className="summary__option__value"
+        >
+          Ubuntu Linux 16.04
+        </div>
+        <div
+          className="summary__option__cost"
+        >
+          $200.00
+        </div>
+      </div>
+      <div
+        className="summary__option"
+        key="Video Card"
+      >
+        <div
+          className="summary__option__label"
+        >
+          Video Card
+           
+        </div>
+        <div
+          className="summary__option__value"
+        >
+          Toyota Corolla 1.5v
+        </div>
+        <div
+          className="summary__option__cost"
+        >
+          $1,150.98
+        </div>
+      </div>
+      <div
+        className="summary__option"
+        key="Display"
+      >
+        <div
+          className="summary__option__label"
+        >
+          Display
+           
+        </div>
+        <div
+          className="summary__option__value"
+        >
+          15.6" UHD (3840 x 2160) 60Hz Bright Lights and Knobs
+        </div>
+        <div
+          className="summary__option__cost"
+        >
+          $1,500.00
+        </div>
+      </div>
+      <div
+        className="summary__total"
+      >
+        <div
+          className="summary__total__label"
+        >
+          Your Price:
+           
+        </div>
+        <div
+          className="summary__total__value"
+        >
+          $3,550.98
+        </div>
+      </div>
+    </section>
+  </main>
+</div>
+`;

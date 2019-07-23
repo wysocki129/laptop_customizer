@@ -6,11 +6,16 @@ class Options extends Component {
 		const {
 			allOptions,
 			handleUpdateFeature,
-			featureType
+			featureType,
+			selectedOptions
 		} = this.props;
-		const featureOptions = allOptions.map((item, index) => {
-			const featureClass = 'feature__option ';
 
+		const featureOptions = allOptions.map((item, index) => {
+			const selectedClass =
+				item.name === selectedOptions[featureType].name
+					? 'feature__selected'
+					: ' ';
+			const featureClass = 'feature__option ' + selectedClass;
 			return (
 				<li key={index} className="feature__item">
 					<div
@@ -33,5 +38,8 @@ class Options extends Component {
 		return <> {featureOptions} </>;
 	}
 }
+Options.defaultProps = {
+	allOptions: []
+};
 
 export default Options;

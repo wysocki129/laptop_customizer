@@ -67,6 +67,7 @@ class App extends Component {
 				<main>
 					<Features
 						features={this.props.features}
+						selectedOptions={this.state.selected}
 						handleUpdateFeature={(feat, newItem) =>
 							this.updateFeature(feat, newItem)
 						}

@@ -4,10 +4,15 @@ import Options from '../Options/Options';
 
 class Features extends Component {
 	render() {
-		const { features, handleUpdateFeature } = this.props;
+		const {
+			features,
+			handleUpdateFeature,
+			selectedOptions
+		} = this.props;
 		const featList = Object.keys(features).map(key => {
 			const options = (
 				<Options
+					selectedOptions={selectedOptions}
 					featureType={key}
 					allOptions={features[key]}
 					handleUpdateFeature={handleUpdateFeature}

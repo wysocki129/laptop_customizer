@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Features Component shows all options for a feature 1`] = `
+<section
+  className="main__form"
+>
+  <h3>
+    TECH SPECS AND CUSTOMIZATIONS
+  </h3>
+  <div
+    className="feature"
+    key="Processor"
+  >
+    <div
+      className="feature__name"
+    >
+      Processor
+    </div>
+    <ul
+      className="feature__list"
+    >
+      <Options
+        allOptions={
+          Array [
+            Object {
+              "cost": 700,
+              "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+            },
+            Object {
+              "cost": 1200,
+              "name": "Professor X AMD Fire Breather with sidewinder technology",
+            },
+          ]
+        }
+        featureType="Processor"
+      />
+    </ul>
+  </div>
+  <div
+    className="feature"
+    key="Operating System"
+  >
+    <div
+      className="feature__name"
+    >
+      Operating System
+    </div>
+    <ul
+      className="feature__list"
+    >
+      <Options
+        allOptions={
+          Array [
+            Object {
+              "cost": 200,
+              "name": "Ubuntu Linux 16.04",
+            },
+            Object {
+              "cost": 300,
+              "name": "Bodhi Linux",
+            },
+          ]
+        }
+        featureType="Operating System"
+      />
+    </ul>
+  </div>
+  <div
+    className="feature"
+    key="Video Card"
+  >
+    <div
+      className="feature__name"
+    >
+      Video Card
+    </div>
+    <ul
+      className="feature__list"
+    >
+      <Options
+        allOptions={
+          Array [
+            Object {
+              "cost": 1150.98,
+              "name": "Toyota Corolla 1.5v",
+            },
+            Object {
+              "cost": 1345,
+              "name": "Mind mild breeze 2000",
+            },
+          ]
+        }
+        featureType="Video Card"
+      />
+    </ul>
+  </div>
+  <div
+    className="feature"
+    key="Display"
+  >
+    <div
+      className="feature__name"
+    >
+      Display
+    </div>
+    <ul
+      className="feature__list"
+    >
+      <Options
+        allOptions={
+          Array [
+            Object {
+              "cost": 1500,
+              "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+            },
+            Object {
+              "cost": 1400,
+              "name": "15.3\\" HGTV (3840 x 2160) Home makeover edition",
+            },
+          ]
+        }
+        featureType="Display"
+      />
+    </ul>
+  </div>
+</section>
+`;
